@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
-    int sum=1,i,num;
+    int i,num,sum=1;
     scanf("%d",&num);
     for(i=1;i<=num;i++)
     {
-        sum*=i;
+        sum=sum*i;
+       
     }
-    printf("%d",sum);
-    return 0;
+     printf("%d",sum);
 }
